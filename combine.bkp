@@ -1,0 +1,88 @@
+##
+# Higgs Differential Combiner configuration file
+
+PlotFileName: Combined_pilnu_averaged.pdf
+
+InputCard: inputcards/pilnu_average_v1.data
+
+Variable: Average
+Measurements: HaWon Sibidanov Sanchez Lees
+
+TestCompatibilityWithTheory: false
+IncludetheoryUncertaintyNP: false  #true
+# false = no correlation; true = fully correlation 
+AssumeFullCorrelation: true
+kFactor: false
+kFactorReference: LHCHXSWG
+# Options are 'normal' (Gaussian), 'bifurcated' (double Gaussian -- only for inclusive) and 'DFD' (double fermi dirac) with w specified below
+TheoryConstraintType: Gaussian
+DFD.wParameter: 50
+TheoryInputCard: inputcards/Theory_v1.data
+
+# Which prediction are used to calculate a p-value?
+#Predictions: LHCHXSWG
+#Predictions: NNLOPS
+#Predictions: NNLOPS HRes MEPSNLO MG5_aMCNLO
+#Predictions: LHCHXSWG STWZ BYN BBFMR FMMV DDFGHLM DDFGHLM2
+#Predictions: LHCHXSWG N3LO
+#Predictions: HRes STWZ2 JetVheto
+
+# What uncertainties are included? 
+#LHCHXSWG.Uncertainties: Total
+#NNLOPS.Uncertainties: QCDScale PDF
+#HRes.Uncertainties: QCDScale PDF
+#MEPSNLO.Uncertainties: QCDScale QCut PDF
+#MG5_aMCNLO.Uncertainties: QCDScale PDF
+#STWZ.Uncertainties: Total
+#BYN.Uncertainties: Total
+#BBFMR.Uncertainties: Total
+#FMMV.Uncertainties: Total
+#DDFGHLM.Uncertainties: Total
+#DDFGHLM2.Uncertainties: Total
+#STWZ2.Uncertainties: QCDScale PDF
+#JetVheto.Uncertainties: QCDScale PDF
+#XH.Uncertainties: QCDScale PDF
+#N3LO.Uncertainties: QCDScale PDF
+#N3LO.Uncertainties: Total
+  
+##  
+DoPerformIndividualScan: false
+
+## 'Incl' and 'yH2' are options
+FiducialRegion: Incl
+
+Chi2InputFile: simple_comb_v4.root
+
+## 'shape', 'full' and 'simp' are options - Update: 'Multi' now also is an option!
+CombinationMethod: Multi
+IncludeNP: true
+
+## 'Gaussian', 'Gamma', 'Poisson' are options
+NdataModel: Poisson
+
+#CrossSectionOptions: 1.35 0. 100.
+#CrossSectionOptions: 80 -1000. 1000.
+CrossSectionOptions: 80 -600. 600.
+
+## Settings for manual scan of likelihood
+ManualScan: false
+ScanNPoints: 30.
+ScanNSigma: 3.
+
+Average.Label: q^{2}
+Average.Unit: GeV^{2}
+Inclusive.Label: Inclusive
+pTH.Label: p_{T}^{H}
+pTH.Unit:  GeV
+Njets.Label: N_{jets}
+yAbsH.Label: |y^{H}|
+pTj1.Label: p_{T}^{j1}
+pTj1.Unit: GeV
+
+HaWon.Label: B #rightarrow #pi l #nu Belle 2010
+Sibidanov.Label: B #rightarrow #pi l #nu Belle 2012
+Sanchez.Label: B #rightarrow #pi l #nu BaBar 2010
+Lees.Label: B #rightarrow #pi l #nu BaBar 2012
+
+
+

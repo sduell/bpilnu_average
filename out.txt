@@ -1,0 +1,7 @@
+rm -rf *.o
+rm -rf main/HiggsCombiner
+g++ utils/AtlasStyle.C utils/AtlasLabels.C utils/AtlasUtils.C utils/Utils.C \
+main/HiggsDifferentialCombiner.C main/HiggsDifferentialInput.C main/HiggsDifferentialWorkspace.C \
+main/HiggsDifferentialPlot.C \
+-pthread -std=c++11 -Wno-deprecated-declarations -m64 -I/opt/root/include -lMinuit -lMinuit2 -lRooFitCore -lRooFit -lRooStats -L/opt/root/lib -lCore -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -lMultiProc -pthread -lm -ldl -rdynamic main/HiggsCombiner.C -o main/HiggsCombiner
+Makefile:16: recipe for target 'main/HiggsCombiner' failed

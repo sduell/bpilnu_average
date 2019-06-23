@@ -1,0 +1,424 @@
+
+## HXSWG
+
+Inclusive.LHCHXSWG.XSec:                                      19.15
+Inclusive.LHCHXSWG.XSecErr.TotalUp:                        0.10397 
+Inclusive.LHCHXSWG.XSecErr.TotalDown:                      -0.10414
+
+## approx. N(3)LO
+
+#    LHC-XS 19.15 pb, +0.10397 -0.10414
+#      ABNY 19.54 pb, +0.08948 -0.08009
+#      STWZ 20.41 pb, +0.09476 -0.09008
+#     dFMMV 21.12 pb, +0.08073 -0.07655
+#     BBFMR 21.32 pb, +0.11885 -0.09725
+#  ADDFGHLM 19.56 pb, +0.13606 -0.26824
+# ADDFGHLM2 19.56 pb, +0.21783 -0.35459
+
+Inclusive.STWZ.XSec:							 			 20.41
+Inclusive.STWZ.XSecErr.TotalUp:								 0.09476
+Inclusive.STWZ.XSecErr.TotalDown:							 -0.09008
+
+Inclusive.BYN.XSec:								 			 19.54
+Inclusive.BYN.XSecErr.TotalUp:							     0.08948
+Inclusive.BYN.XSecErr.TotalDown: 							 -0.08009
+
+Inclusive.BBFMR.XSec:								 	  	 21.32 
+Inclusive.BBFMR.XSecErr.TotalUp:							 0.11885
+Inclusive.BBFMR.XSecErr.TotalDown: 							 -0.09725
+
+Inclusive.FMMV.XSec:								 	  	 21.12
+Inclusive.FMMV.XSecErr.TotalUp:								 0.08073
+Inclusive.FMMV.XSecErr.TotalDown: 							 -0.07655
+
+Inclusive.DDFGHLM.XSec:								 	  	 19.56
+Inclusive.DDFGHLM.XSecErr.TotalUp:							 0.13606 
+Inclusive.DDFGHLM.XSecErr.TotalDown: 						 -0.26824
+
+Inclusive.DDFGHLM2.XSec:								 	 19.56
+Inclusive.DDFGHLM2.XSecErr.TotalUp:							 0.21783 
+Inclusive.DDFGHLM2.XSecErr.TotalDown: 						 -0.35459
+
+Inclusive.N3LO.XSec:										 20.55
+## HXSWG PDF errors
+#Inclusive.N3LO.XSecErr.TotalUp:								 0.0749392
+#Inclusive.N3LO.XSecErr.TotalDown:						  	 -0.0725061
+## inflated errors
+#Inclusive.N3LO.XSecErr.TotalUp:								 0.0800093
+#Inclusive.N3LO.XSecErr.TotalDown:						  	 -0.0771572
+
+## linearly added errors to emulate 2 top-hat NP
+#Inclusive.N3LO.XSecErr.TotalUp:								 0.0819792
+#Inclusive.N3LO.XSecErr.TotalDown:						  	 -0.0958451
+
+## linearly added errors to emulate 2 top-hat NP -- scaled to 68% PDF
+Inclusive.N3LO.XSecErr.TotalUp:								 0.0504643
+Inclusive.N3LO.XSecErr.TotalDown:						  	 -0.0666881
+
+
+## split errors -- not so useful, since errors are added in quadrature in the code with one NP
+Inclusive.N3LO.XSecErr.QCDScaleUp:							 0.00199475
+Inclusive.N3LO.XSecErr.QCDScaleDown:						 -0.0218449
+Inclusive.N3LO.XSecErr.PDFUp:								 0.0799844
+Inclusive.N3LO.XSecErr.PDFDown:						     	 -0.0740002
+
+
+
+
+## NNLOPS
+
+Inclusive.NNLOPS.XSec:                                      16.9112
+Inclusive.NNLOPS.XSecErr.QCDScaleUp:                        0.1032
+Inclusive.NNLOPS.XSecErr.QCDScaleDown:                      -0.0994
+Inclusive.NNLOPS.XSecErr.PDFUp:         0.0138      
+Inclusive.NNLOPS.XSecErr.PDFDown:        -0.0143 
+
+pTH.NNLOPS.XSec:                                            0.3476      0.2767      0.1911      0.1353      0.0957      0.0600      0.0334      0.0093
+pTH.NNLOPS.XSecErr.QCDScaleUp:                              0.1827      0.1375      0.1380      0.1341      0.1297      0.1459      0.1610      0.2118
+pTH.NNLOPS.XSecErr.QCDScaleDown:                            -0.1563     -0.1535     -0.1240     -0.1211     -0.1303     -0.1447     -0.1674     -0.1954
+pTH.NNLOPS.XSecErr.PDFUp:         0.0184      0.0173      0.0155      0.0140      0.0175      0.0210      0.0248      0.0291      
+pTH.NNLOPS.XSecErr.PDFDown:        -0.0160     -0.0152     -0.0136     -0.0139     -0.0170     -0.0200     -0.0232     -0.0267     
+
+yAbsH.NNLOPS.XSec:                                          9.2454      8.9087      8.3554      7.5178      6.2618      3.8705
+yAbsH.NNLOPS.XSecErr.QCDScaleUp:                            0.1050      0.1090      0.1043      0.1110      0.1077      0.1108
+yAbsH.NNLOPS.XSecErr.QCDScaleDown:                          -0.0967     -0.0950     -0.0975     -0.0973     -0.0993     -0.1016
+yAbsH.NNLOPS.XSecErr.PDFUp:         0.0277      0.0267      0.0254      0.0218      0.0148      0.0231      
+yAbsH.NNLOPS.XSecErr.PDFDown:        -0.0254     -0.0246     -0.0240     -0.0219     -0.0165     -0.0278
+
+Njets.NNLOPS.XSec:                                          11.3552     4.0673      1.1390      0.3497
+Njets.NNLOPS.XSecErr.QCDScaleUp:                            0.1584      0.1402      0.1730      0.2058
+Njets.NNLOPS.XSecErr.QCDScaleDown:                          -0.1514     -0.1399     -0.1647     -0.1840
+Njets.NNLOPS.XSecErr.PDFUp:         0.0190      0.0176      0.0267      0.0388      
+Njets.NNLOPS.XSecErr.PDFDown:        -0.0158     -0.0174     -0.0247     -0.0324
+
+pTj1.NNLOPS.XSec:                                           0.3785     0.1348      0.0618      0.0280      0.0109
+pTj1.NNLOPS.XSecErr.QCDScaleUp:                             0.1584      0.1367      0.1476      0.1906      0.2233
+pTj1.NNLOPS.XSecErr.QCDScaleDown:                           -0.1514     -0.1228     -0.1489     -0.1771     -0.1993
+pTj1.NNLOPS.XSecErr.PDFUp:       						    0.0190      0.0167      0.0214      0.0253      0.0281      
+pTj1.NNLOPS.XSecErr.PDFDown:      						   -0.0158     -0.0163     -0.0203     -0.0236     -0.0258
+
+pTH_shape.NNLOPS.XSec:                                      0.3476      0.2767      0.1911      0.1353      0.0957      0.0600      0.0334      0.0093
+pTH_shape.NNLOPS.XSecErr.QCDScaleUp:                        0.0659      0.0214      0.0241      0.0334      0.0658      0.1185      0.1725      0.2750
+pTH_shape.NNLOPS.XSecErr.QCDScaleDown:                      -0.0665     -0.0443     -0.0211     -0.0410     -0.0644     -0.0980     -0.1451     -0.2073
+pTH_shape.NNLOPS.XSecErr.PDFUp:         0.0035      0.0021      0.0009      0.0019      0.0061      0.0124      0.0167      0.0306      
+pTH_shape.NNLOPS.XSecErr.PDFDown:        -0.0042     -0.0027     -0.0011     -0.0020     -0.0045     -0.0079     -0.0116     -0.0221 
+
+yAbsH_shape.NNLOPS.XSec:                                    9.2454      8.9087      8.3554      7.5178      6.2618      3.8705
+yAbsH_shape.NNLOPS.XSecErr.QCDScaleUp:                      0.0051      0.0029      0.0010      0.0038      0.0010      0.0034
+yAbsH_shape.NNLOPS.XSecErr.QCDScaleDown:                    -0.0035     -0.0004     -0.0035     -0.0013     -0.0039     -0.0051
+yAbsH_shape.NNLOPS.XSecErr.PDFUp:         0.0095      0.0075      0.0044      0.0017      0.0085      0.0282      
+yAbsH_shape.NNLOPS.XSecErr.PDFDown:        -0.0063     -0.0052     -0.0037     -0.0029     -0.0115     -0.0325  
+
+Njets_shape.NNLOPS.XSec:                                    11.3552     4.0673      1.1390      0.3497
+Njets_shape.NNLOPS.XSecErr.QCDScaleUp:                      0.0500      0.0937      0.1637      0.2526
+Njets_shape.NNLOPS.XSecErr.QCDScaleDown:                    -0.0578     -0.0841     -0.1400     -0.1909
+Njets_shape.NNLOPS.XSecErr.PDFUp:         0.0051      0.0046      0.0212      0.0467      
+Njets_shape.NNLOPS.XSecErr.PDFDown:        -0.0069     -0.0050     -0.0155     -0.0347  
+
+pTj1_shape.NNLOPS.XSec:                                     0.3785      0.1348      0.0618      0.0280      0.0109
+pTj1_shape.NNLOPS.XSecErr.QCDScaleUp:                       0.0026      0.0955      0.1786      0.2768      0.3615
+pTj1_shape.NNLOPS.XSecErr.QCDScaleDown:                     -0.0031     -0.0866     -0.1458     -0.2037     -0.2529
+pTj1_shape.NNLOPS.XSecErr.PDFUp:         0.0045      0.0029      0.0107      0.0196      0.0273      
+pTj1_shape.NNLOPS.XSecErr.PDFDown:        -0.0062     -0.0031     -0.0077     -0.0142     -0.0203 
+
+
+
+## HRes2
+
+pTH.HRes.XSec:                                              0.3340      0.3000      0.2005      0.1377      0.0962      0.0576      0.0307      0.0080
+pTH.HRes.XSecErr.QCDScaleUp:                                        0.2031      0.1081      0.1423      0.1770      0.1940      0.2111      0.2434      0.2549
+pTH.HRes.XSecErr.QCDScaleDown:                                      -0.0804     -0.1484     -0.1952     -0.2130     -0.2384     -0.2402     -0.2688     -0.2231
+pTH.HRes.XSecErr.PDFUp:         0.0184      0.0173      0.0155      0.0140      0.0175      0.0210      0.0248      0.0291      
+pTH.HRes.XSecErr.PDFDown:        -0.0160     -0.0152     -0.0136     -0.0139     -0.0170     -0.0200     -0.0232     -0.0267 
+
+yAbsH.HRes.XSec:                                               9.0592      8.9494      8.3810      7.4868      6.2670      3.8050
+yAbsH.HRes.XSecErr.QCDScaleUp:                                         0.1223      0.1237      0.1125      0.1238      0.1082      0.1307
+yAbsH.HRes.XSecErr.QCDScaleDown:                                       -0.1130     -0.1162     -0.1187     -0.1189     -0.1170     -0.1053
+yAbsH.HRes.XSecErr.PDFUp:         0.0277      0.0267      0.0254      0.0218      0.0148      0.0231      
+yAbsH.HRes.XSecErr.PDFDown:        -0.0254     -0.0246     -0.0240     -0.0219     -0.0165     -0.0278
+
+pTH_shape.HRes.XSec:                                              0.2868      0.2575      0.1721      0.1182      0.0826      0.0494      0.0264      0.0068
+pTH_shape.HRes.XSecErr.QCDScaleUp:                                        0.1673      0.0132      0.0328      0.0642      0.0796      0.0950      0.1242      0.1606
+pTH_shape.HRes.XSecErr.QCDScaleDown:                                      -0.1014     -0.0194     -0.0733     -0.0937     -0.1292     -0.1343     -0.2084     -0.1656
+pTH_shape.HRes.XSecErr.PDFUp:           0.0035      0.0021      0.0009      0.0019      0.0061      0.0124      0.0167      0.0306      
+pTH_shape.HRes.XSecErr.PDFDown:         -0.0042     -0.0027     -0.0011     -0.0020     -0.0045     -0.0079     -0.0116     -0.0221 
+
+yAbsH_shape.HRes.XSec:                                               0.2061      0.2036      0.1907      0.1704      0.1426      0.0866
+yAbsH_shape.HRes.XSecErr.QCDScaleUp:                                         0.0198      0.0089      0.0120      0.0064      0.0101      0.0209
+yAbsH_shape.HRes.XSecErr.QCDScaleDown:                                       -0.0045     -0.0128     -0.0182     -0.0145     -0.0169     -0.0001
+yAbsH_shape.HRes.XSecErr.PDFUp:           0.0095      0.0075      0.0044      0.0017      0.0085      0.0282      
+yAbsH_shape.HRes.XSecErr.PDFDown:         -0.0063     -0.0052     -0.0037     -0.0029     -0.0115     -0.0325 
+
+## MEPSNLO
+
+MEPSNLO.Uncertainties.Uncorr:        MCStatErr
+MEPSNLO.Uncertainties.Corr:          BR NPerr
+MEPSNLO.Uncertainties.CorrUpDown:    QCDscale PDF
+
+Inclusive.MEPSNLO.XSec:                                     11.0037     
+Inclusive.MEPSNLO.XSecErr.muRmuFUp:                         -0.1935     
+Inclusive.MEPSNLO.XSecErr.muRmuFDown:                       0.3710      
+Inclusive.MEPSNLO.XSecErr.QCutUp:                           0.0556      
+Inclusive.MEPSNLO.XSecErr.QCutDown:                         -0.0511     
+Inclusive.MEPSNLO.XSecErr.QScaleUp:                         -0.0394     
+Inclusive.MEPSNLO.XSecErr.QScaleDown:                       0.0579      
+Inclusive.MEPSNLO.XSecErr.QCDScaleUp:                       0.3710      
+Inclusive.MEPSNLO.XSecErr.QCDScaleDown:                     -0.1935     
+Inclusive.MEPSNLO.XSecErr.PDFUp:         0.0138      
+Inclusive.MEPSNLO.XSecErr.PDFDown:        -0.0143     
+
+pTH.MEPSNLO.XSec:                                           0.2008      0.2001      0.1352      0.0927      0.0653      0.0401      0.0220      0.0066      
+pTH.MEPSNLO.XSecErr.muRmuFUp:                               -0.1462     -0.1780     -0.1921     -0.2092     -0.2280     -0.2516     -0.2719     -0.3082     
+pTH.MEPSNLO.XSecErr.muRmuFDown:                             0.2304      0.2690      0.3291      0.4093      0.4635      0.5642      0.6522      0.8845      
+pTH.MEPSNLO.XSecErr.QCutUp:                                 0.0023      -0.0032     0.0917      0.1259      0.1389      0.1661      0.1715      0.0951      
+pTH.MEPSNLO.XSecErr.QCutDown:                               0.0227      -0.0668     -0.0811     -0.1101     -0.1084     -0.2148     -0.0742     -0.0486     
+pTH.MEPSNLO.XSecErr.QScaleUp:                               -0.0445     -0.0415     -0.0404     -0.0381     -0.0406     -0.0396     -0.0342     -0.0138     
+pTH.MEPSNLO.XSecErr.QScaleDown:                             0.0767      0.0519      0.0637      0.0652      0.0566      0.0396      0.0055      0.0095      
+pTH.MEPSNLO.XSecErr.QCDScaleUp:                             0.2304      0.2690      0.3291      0.4093      0.4635      0.5642      0.6522      0.8845      
+pTH.MEPSNLO.XSecErr.QCDScaleDown:                           -0.1462     -0.1780     -0.1921     -0.2092     -0.2280     -0.2516     -0.2719     -0.3082     
+pTH.MEPSNLO.XSecErr.PDFUp:         0.0184      0.0173      0.0155      0.0140      0.0175      0.0210      0.0248      0.0291      
+pTH.MEPSNLO.XSecErr.PDFDown:        -0.0160     -0.0152     -0.0136     -0.0139     -0.0170     -0.0200     -0.0232     -0.0267     
+
+yAbsH.MEPSNLO.XSec:                                         5.9912      5.8909      5.5073      4.9093      4.0738      2.4770      
+yAbsH.MEPSNLO.XSecErr.muRmuFUp:                             -0.1885     -0.1933     -0.1923     -0.1918     -0.1924     -0.1975     
+yAbsH.MEPSNLO.XSecErr.muRmuFDown:                           0.3937      0.3710      0.3685      0.3753      0.3605      0.3665      
+yAbsH.MEPSNLO.XSecErr.QCutUp:                               0.0772      0.0563      0.0510      0.0547      0.0478      0.0542      
+yAbsH.MEPSNLO.XSecErr.QCutDown:                             -0.0825     -0.0497     -0.0520     -0.0518     -0.0417     -0.0328     
+yAbsH.MEPSNLO.XSecErr.QScaleUp:                             -0.0349     -0.0436     -0.0354     -0.0418     -0.0364     -0.0407     
+yAbsH.MEPSNLO.XSecErr.QScaleDown:                           0.0692      0.0512      0.0529      0.0579      0.0527      0.0607      
+yAbsH.MEPSNLO.XSecErr.QCDScaleUp:                           0.3937      0.3710      0.3685      0.3753      0.3605      0.3665      
+yAbsH.MEPSNLO.XSecErr.QCDScaleDown:                         -0.1885     -0.1933     -0.1923     -0.1918     -0.1924     -0.1975     
+yAbsH.MEPSNLO.XSecErr.PDFUp:         0.0277      0.0267      0.0254      0.0218      0.0148      0.0231      
+yAbsH.MEPSNLO.XSecErr.PDFDown:        -0.0254     -0.0246     -0.0240     -0.0219     -0.0165     -0.0278
+
+Njets.MEPSNLO.XSec:                                         7.1804      2.8342      0.7000      0.2891      
+Njets.MEPSNLO.XSecErr.muRmuFUp:                             -0.1628     -0.2222     -0.3139     -0.3805     
+Njets.MEPSNLO.XSecErr.muRmuFDown:                           0.2522      0.4472      0.9285      1.2253      
+Njets.MEPSNLO.XSecErr.QCutUp:                               0.0244      0.1129      0.1538      0.0295      
+Njets.MEPSNLO.XSecErr.QCutDown:                             -0.0242     -0.1251     -0.0589     0.0242      
+Njets.MEPSNLO.XSecErr.QScaleUp:                             -0.0448     -0.0308     -0.0324     -0.0053     
+Njets.MEPSNLO.XSecErr.QScaleDown:                           0.0722      0.0358      0.0191      0.0117      
+Njets.MEPSNLO.XSecErr.QCDScaleUp:                           0.2522      0.4472      0.9285      1.2253      
+Njets.MEPSNLO.XSecErr.QCDScaleDown:                         -0.1628     -0.2222     -0.3139     -0.3805     
+Njets.MEPSNLO.XSecErr.PDFUp:         0.0190      0.0176      0.0267      0.0388      
+Njets.MEPSNLO.XSecErr.PDFDown:        -0.0158     -0.0174     -0.0247     -0.0324
+
+pTj1.MEPSNLO.XSec:                                          0.2393      0.0922      0.0411      0.0189      0.0078      
+pTj1.MEPSNLO.XSecErr.muRmuFUp:                              -0.1628     -0.2163     -0.2532     -0.2796     -0.3051     
+pTj1.MEPSNLO.XSecErr.muRmuFDown:                            0.2522      0.4434      0.5979      0.7301      0.8646      
+pTj1.MEPSNLO.XSecErr.QCutUp:                                0.0244      0.1232      0.1399      0.1146      0.0643      
+pTj1.MEPSNLO.XSecErr.QCutDown:                              -0.0242     -0.0997     -0.1841     -0.0602     -0.0538     
+pTj1.MEPSNLO.XSecErr.QScaleUp:                              -0.0448     -0.0337     -0.0357     -0.0269     -0.0183     
+pTj1.MEPSNLO.XSecErr.QScaleDown:                            0.0722      0.0451      0.0347      0.0072      0.0016      
+pTj1.MEPSNLO.XSecErr.QCDScaleUp:                            0.2522      0.4434      0.5979      0.7301      0.8646      
+pTj1.MEPSNLO.XSecErr.QCDScaleDown:                          -0.1628     -0.2163     -0.2532     -0.2796     -0.3051     
+pTj1.MEPSNLO.XSecErr.PDFUp:         0.0190      0.0167      0.0214      0.0253      0.0281      
+pTj1.MEPSNLO.XSecErr.PDFDown:        -0.0158     -0.0163     -0.0203     -0.0236     -0.0258
+
+pTH_shape.MEPSNLO.XSec:                                           0.2008      0.2001      0.1352      0.0927      0.0653      0.0401      0.0220      0.0066      
+pTH_shape.MEPSNLO.XSecErr.muRmuFUp:                               0.0514      0.0122      -0.0051     -0.0262     -0.0494     -0.0785     -0.1035     -0.1482     
+pTH_shape.MEPSNLO.XSecErr.muRmuFDown:                             -0.0784     -0.0495     -0.0045     0.0556      0.0962      0.1716      0.2375      0.4116      
+pTH_shape.MEPSNLO.XSecErr.QCutUp:                                 -0.0524     -0.0575     0.0321      0.0645      0.0767      0.1025      0.1076      0.0354      
+pTH_shape.MEPSNLO.XSecErr.QCutDown:                               0.0908      -0.0047     -0.0199     -0.0508     -0.0490     -0.1625     -0.0125     0.0147      
+pTH_shape.MEPSNLO.XSecErr.QScaleUp:                               -0.0036     -0.0005     0.0007      0.0031      0.0004      0.0015      0.0071      0.0284      
+pTH_shape.MEPSNLO.XSecErr.QScaleDown:                             0.0156      -0.0078     0.0033      0.0047      -0.0034     -0.0194     -0.0516     -0.0479     
+pTH_shape.MEPSNLO.XSecErr.QCDScaleUp:                             0.0908      0.0122      0.0321      0.0645      0.0962      0.1716      0.2375      0.4116      
+pTH_shape.MEPSNLO.XSecErr.QCDScaleDown:                           -0.0784     -0.0575     -0.0199     -0.0508     -0.0494     -0.1625     -0.1035     -0.1482     
+pTH_shape.MEPSNLO.XSecErr.PDFUp:         0.0035      0.0021      0.0009      0.0019      0.0061      0.0124      0.0167      0.0306      
+pTH_shape.MEPSNLO.XSecErr.PDFDown:        -0.0042     -0.0027     -0.0011     -0.0020     -0.0045     -0.0079     -0.0116     -0.0221 
+
+yAbsH_shape.MEPSNLO.XSec:                                         5.9912      5.8909      5.5073      4.9093      4.0738      2.4770      
+yAbsH_shape.MEPSNLO.XSecErr.muRmuFUp:                             0.0044      -0.0015     -0.0003     0.0004      -0.0004     -0.0067     
+yAbsH_shape.MEPSNLO.XSecErr.muRmuFDown:                           0.0143      -0.0022     -0.0040     0.0009      -0.0099     -0.0056     
+yAbsH_shape.MEPSNLO.XSecErr.QCutUp:                               0.0182      -0.0016     -0.0066     -0.0031     -0.0096     -0.0035     
+yAbsH_shape.MEPSNLO.XSecErr.QCutDown:                             -0.0293     0.0054      0.0029      0.0030      0.0137      0.0232      
+yAbsH_shape.MEPSNLO.XSecErr.QScaleUp:                             0.0040      -0.0052     0.0033      -0.0033     0.0023      -0.0021     
+yAbsH_shape.MEPSNLO.XSecErr.QScaleDown:                           0.0111      -0.0059     -0.0043     0.0005      -0.0045     0.0031      
+yAbsH_shape.MEPSNLO.XSecErr.QCDScaleUp:                           0.0182      0.0054      0.0033      0.0030      0.0137      0.0232      
+yAbsH_shape.MEPSNLO.XSecErr.QCDScaleDown:                         -0.0293     -0.0059     -0.0066     -0.0033     -0.0099     -0.0067    
+yAbsH_shape.MEPSNLO.XSecErr.PDFUp:         0.0095      0.0075      0.0044      0.0017      0.0085      0.0282      
+yAbsH_shape.MEPSNLO.XSecErr.PDFDown:        -0.0063     -0.0052     -0.0037     -0.0029     -0.0115     -0.0325    
+
+Njets_shape.MEPSNLO.XSec:                                         7.1804      2.8342      0.7000      0.2891      
+Njets_shape.MEPSNLO.XSecErr.muRmuFUp:                             0.0380      -0.0357     -0.1494     -0.2319     
+Njets_shape.MEPSNLO.XSecErr.muRmuFDown:                           -0.0867     0.0556      0.4066      0.6231      
+Njets_shape.MEPSNLO.XSecErr.QCutUp:                               -0.0295     0.0543      0.0931      -0.0247     
+Njets_shape.MEPSNLO.XSecErr.QCutDown:                             0.0284      -0.0780     -0.0083     0.0794      
+Njets_shape.MEPSNLO.XSecErr.QScaleUp:                             -0.0057     0.0089      0.0072      0.0355      
+Njets_shape.MEPSNLO.XSecErr.QScaleDown:                           0.0136      -0.0209     -0.0366     -0.0436     
+Njets_shape.MEPSNLO.XSecErr.QCDScaleUp:                           0.0380      0.0556      0.4066      0.6231      
+Njets_shape.MEPSNLO.XSecErr.QCDScaleDown:                         -0.0867     -0.0780     -0.1494     -0.2319     
+Njets_shape.MEPSNLO.XSecErr.PDFUp:         0.0051      0.0046      0.0212      0.0467      
+Njets_shape.MEPSNLO.XSecErr.PDFDown:        -0.0069     -0.0050     -0.0155     -0.0347  
+
+pTj1_shape.MEPSNLO.XSec:                                          0.2393      0.0922      0.0411      0.0189      0.0078      
+pTj1_shape.MEPSNLO.XSecErr.muRmuFUp:                              0.0371      -0.0292     -0.0748     -0.1075     -0.1391     
+pTj1_shape.MEPSNLO.XSecErr.muRmuFDown:                            -0.0836     0.0563      0.1693      0.2661      0.3645      
+pTj1_shape.MEPSNLO.XSecErr.QCutUp:                                -0.0373     0.0555      0.0712      0.0474      0.0001      
+pTj1_shape.MEPSNLO.XSecErr.QCutDown:                              0.0385      -0.0419     -0.1317     0.0001      0.0070      
+pTj1_shape.MEPSNLO.XSecErr.QScaleUp:                              -0.0051     0.0065      0.0044      0.0136      0.0226      
+pTj1_shape.MEPSNLO.XSecErr.QScaleDown:                            0.0138      -0.0119     -0.0217     -0.0477     -0.0530     
+pTj1_shape.MEPSNLO.XSecErr.QCDScaleUp:                            0.0385      0.0563      0.1693      0.2661      0.3645      
+pTj1_shape.MEPSNLO.XSecErr.QCDScaleDown:                          -0.0836     -0.0419     -0.1317     -0.1075     -0.1391     
+pTj1_shape.MEPSNLO.XSecErr.PDFUp:         0.0045      0.0029      0.0107      0.0196      0.0273      
+pTj1_shape.MEPSNLO.XSecErr.PDFDown:        -0.0062     -0.0031     -0.0077     -0.0142     -0.0203 
+
+
+## MG5_aMCNLO
+
+Inclusive.MG5_aMCNLO.XSec:                    14.4683
+Inclusive.MG5_aMCNLO.XSecErr.QCDScaleUp:      0.2229      
+Inclusive.MG5_aMCNLO.XSecErr.QCDScaleDown:    -0.1729     
+Inclusive.MG5_aMCNLO.XSecErr.PDFUp:           0.0138      
+Inclusive.MG5_aMCNLO.XSecErr.PDFDown:         -0.0143     
+
+pTH.MG5_aMCNLO.XSec:                    0.2922      0.2144      0.1582      0.1140      0.0849      0.0557      0.0327      0.0095
+pTH.MG5_aMCNLO.XSecErr.QCDScaleUp:      0.2027      0.2195      0.2246      0.2553      0.2780      0.3119      0.3414      0.3328      
+pTH.MG5_aMCNLO.XSecErr.QCDScaleDown:    -0.1595     -0.1706     -0.1781     -0.1950     -0.2150     -0.2346     -0.2510     -0.2554  
+pTH.MG5_aMCNLO.XSecErr.PDFUp:         0.0184      0.0173      0.0155      0.0140      0.0175      0.0210      0.0248      0.0291      
+pTH.MG5_aMCNLO.XSecErr.PDFDown:        -0.0160     -0.0152     -0.0136     -0.0139     -0.0170     -0.0200     -0.0232     -0.0267     
+
+yAbsH.MG5_aMCNLO.XSec:                    8.1823      7.8647      7.1634      6.4495      5.2934      3.1918
+yAbsH.MG5_aMCNLO.XSecErr.QCDScaleUp:      0.2278      0.2318      0.2267      0.2283      0.2280      0.2191      
+yAbsH.MG5_aMCNLO.XSecErr.QCDScaleDown:    -0.1763     -0.1777     -0.1751     -0.1751     -0.1740     -0.1747
+yAbsH.MG5_aMCNLO.XSecErr.PDFUp:         0.0277      0.0267      0.0254      0.0218      0.0148      0.0231      
+yAbsH.MG5_aMCNLO.XSecErr.PDFDown:        -0.0254     -0.0246     -0.0240     -0.0219     -0.0165     -0.0278
+
+Njets.MG5_aMCNLO.XSec:                    9.0518      3.7522      1.2423      0.4066
+Njets.MG5_aMCNLO.XSecErr.QCDScaleUp:      0.2060      0.2682      0.3845      0.4137      
+Njets.MG5_aMCNLO.XSecErr.QCDScaleDown:    -0.1616     -0.2122     -0.2805     -0.2930 
+Njets.MG5_aMCNLO.XSecErr.PDFUp:           0.0190      0.0176      0.0267      0.0388      
+Njets.MG5_aMCNLO.XSecErr.PDFDown:         -0.0158     -0.0174     -0.0247     -0.0324
+
+pTj1.MG5_aMCNLO.XSec:                    0.3017      0.1249      0.0613      0.0275      0.0118
+pTj1.MG5_aMCNLO.XSecErr.QCDScaleUp:      0.2060      0.2828      0.3252      0.3333      0.3445      
+pTj1.MG5_aMCNLO.XSecErr.QCDScaleDown:    -0.1616     -0.2189     -0.2411     -0.2491     -0.2568
+pTj1.MG5_aMCNLO.XSecErr.PDFUp:           0.0190      0.0167      0.0214      0.0253      0.0281      
+pTj1.MG5_aMCNLO.XSecErr.PDFDown:         -0.0158     -0.0163     -0.0203     -0.0236     -0.0258
+
+pTH_shape.MG5_aMCNLO.XSec:                    0.2922      0.2144      0.1582      0.1140      0.0849      0.0557      0.0327      0.0095
+pTH_shape.MG5_aMCNLO.XSecErr.QCDScaleUp:      0.0449      0.0250      0.0101      0.0281      0.0542      0.0822      0.1066      0.0994      
+pTH_shape.MG5_aMCNLO.XSecErr.QCDScaleDown:    -0.0444     -0.0254     -0.0106     -0.0310     -0.0551     -0.0787     -0.0985     -0.1037     
+pTH_shape.MG5_aMCNLO.XSecErr.PDFUp:           0.0035      0.0021      0.0009      0.0019      0.0061      0.0124      0.0167      0.0306      
+pTH_shape.MG5_aMCNLO.XSecErr.PDFDown:         -0.0042     -0.0027     -0.0011     -0.0020     -0.0045     -0.0079     -0.0116     -0.0221 
+
+yAbsH_shape.MG5_aMCNLO.XSec:                    8.1823      7.8647      7.1634      6.4495      5.2934      3.1918
+yAbsH_shape.MG5_aMCNLO.XSecErr.QCDScaleUp:      0.0054      0.0038      0.0026      0.0051      0.0030      0.0146      
+yAbsH_shape.MG5_aMCNLO.XSecErr.QCDScaleDown:    -0.0020     -0.0036     -0.0044     -0.0096     -0.0023     -0.0134     
+yAbsH_shape.MG5_aMCNLO.XSecErr.PDFUp:           0.0095      0.0075      0.0044      0.0017      0.0085      0.0282      
+yAbsH_shape.MG5_aMCNLO.XSecErr.PDFDown:         -0.0063     -0.0052     -0.0037     -0.0029     -0.0115     -0.0325    
+
+Njets_shape.MG5_aMCNLO.XSec:                    9.0518      3.7522      1.2423      0.4066
+Njets_shape.MG5_aMCNLO.XSecErr.QCDScaleUp:      0.0447      0.0428      0.1384      0.1624      
+Njets_shape.MG5_aMCNLO.XSecErr.QCDScaleDown:    -0.0440     -0.0486     -0.1310     -0.1461     
+Njets_shape.MG5_aMCNLO.XSecErr.PDFUp:           0.0051      0.0046      0.0212      0.0467      
+Njets_shape.MG5_aMCNLO.XSecErr.PDFDown:         -0.0069     -0.0050     -0.0155     -0.0347  
+
+pTj1_shape.MG5_aMCNLO.XSec:                    0.3017      0.1249      0.0613      0.0275      0.0118
+pTj1_shape.MG5_aMCNLO.XSecErr.QCDScaleUp:      0.0496      0.0489      0.0835      0.0902      0.0993      
+pTj1_shape.MG5_aMCNLO.XSecErr.QCDScaleDown:    -0.0493     -0.0522     -0.0791     -0.0888     -0.0982     
+pTj1_shape.MG5_aMCNLO.XSecErr.PDFUp:           0.0045      0.0029      0.0107      0.0196      0.0273      
+pTj1_shape.MG5_aMCNLO.XSecErr.PDFDown:         -0.0062     -0.0031     -0.0077     -0.0142     -0.0203 
+
+
+
+## Frank
+
+
+pTj1.STWZ2.XSec:                                   0.4561      0.1533      0.0711      0.0389      0.0179
+pTj1.STWZ2.XSecErr.QCDScaleUp:                     0.0679      0.1172      0.1613      0.1440      0.1606
+pTj1.STWZ2.XSecErr.QCDScaleDown:                   -0.0679     -0.1172     -0.1613     -0.1440     -0.1606
+pTj1.STWZ2.XSecErr.PDFUp:         0.0190      0.0167      0.0214      0.0253      0.0281      
+pTj1.STWZ2.XSecErr.PDFDown:        -0.0158     -0.0163     -0.0203     -0.0236     -0.0258
+
+## Gavin
+
+pTj1.JetVheto.XSec:                                   0.4311      0.1453      0.0654      0.0326      0.0146
+pTj1.JetVheto.XSecErr.QCDScaleUp:                     0.1671      0.1458      0.2329      0.2734      0.2718
+pTj1.JetVheto.XSecErr.QCDScaleDown:                   -0.1413     -0.1108     -0.2033     -0.4562     -0.6554
+pTj1.JetVheto.XSecErr.PDFUp:         0.0190      0.0167      0.0214      0.0253      0.0281      
+pTj1.JetVheto.XSecErr.PDFDown:        -0.0158     -0.0163     -0.0203     -0.0236     -0.0258
+
+
+
+# -----
+# VBF+WH+ZH+ttH+bbH mH = 125.4 GeV
+#
+# VBF 1.573 +0.2 -0.2 +2.6 -2.8 
+# WH  0.6970 +1.0 -1.0 +2.4 -2.4
+# ZH  0.4112 +3.1 -3.1 +2.5 -2.5 
+# ttH 0.1280 +3.8 -9.3 +8.1 -8.1 
+# bbH 0.2013 +10.3 -14.8 +6.1 -6.1
+
+
+# -----
+# VBF+WH+ZH+ttH+bbH mH = 125.4 GeV
+#
+# VBF 1.573 +0.2 -0.2 +2.6 -2.8 
+# WH  0.6970 +1.0 -1.0 +2.4 -2.4
+# ZH  0.4112 +3.1 -3.1 +2.5 -2.5 
+# ttH 0.1280 +3.8 -9.3 +8.1 -8.1 
+# bbH 0.2013 +10.3 -14.8 +6.1 -6.1
+
+
+Inclusive.XH.XSec:                                          3.01049
+Inclusive.XH.XSecErr.QCDScaleUp:                            0.0160974
+Inclusive.XH.XSecErr.QCDScaleDown:                         -0.0124813
+Inclusive.XH.XSecErr.PDFUp:                                 0.0300792
+Inclusive.XH.XSecErr.PDFDown:                              -0.0221606
+
+Njets.XH.XSec:                                              0.59769        1.03788        1.01779        0.35714
+Njets.XH.XSecErr.QCDScaleUp:                                0.0160974      0.0160974      0.0160974      0.0160974
+Njets.XH.XSecErr.QCDScaleDown:                              -0.0124813      -0.0124813      -0.0124813      -0.0124813
+Njets.XH.XSecErr.PDFUp:                                     0.0300792      0.0300792      0.0300792      0.0300792
+Njets.XH.XSecErr.PDFDown:                                   -0.0221606      -0.0221606      -0.0221606      -0.0221606
+
+pTH.XH.XSec:                                                 0.01399        0.02286        0.02568        0.02658        0.02635        0.02358        0.01849        0.00730
+pTH.XH.XSecErr.QCDScaleUp:                                  0.0160974      0.0160974      0.0160974      0.0160974      0.0160974      0.0160974      0.0160974      0.0160974
+pTH.XH.XSecErr.QCDScaleDown:                                -0.0124813      -0.0124813      -0.0124813      -0.0124813      -0.0124813      -0.0124813      -0.0124813      -0.0124813
+pTH.XH.XSecErr.PDFUp:                                        0.0300792      0.0300792      0.0300792      0.0300792      0.0300792      0.0300792      0.0300792      0.0300792 
+pTH.XH.XSecErr.PDFDown:                                      -0.0221606      -0.0221606      -0.0221606      -0.0221606     -0.0221606      -0.0221606      -0.0221606      -0.0221606
+
+yAbsH.XH.XSec:                                              1.64937        1.60384        1.51001        1.37115        1.15446        0.70136 
+yAbsH.XH.XSecErr.QCDScaleUp:                                0.0160974      0.0160974      0.0160974      0.0160974      0.0160974      0.0160974
+yAbsH.XH.XSecErr.QCDScaleDown:                              -0.0124813      -0.0124813      -0.0124813      -0.0124813      -0.0124813      -0.0124813
+yAbsH.XH.XSecErr.PDFUp:                                        0.0300792      0.0300792      0.0300792      0.0300792      0.0300792      0.0300792
+yAbsH.XH.XSecErr.PDFDown:                                      -0.0221606      -0.0221606      -0.0221606      -0.0221606     -0.0221606      -0.0221606
+
+pTj1.XH.XSec:                                               0.01992        0.03043        0.02897        0.01895        0.00909 
+pTj1.XH.XSecErr.QCDScaleUp:                                 0.0160974      0.0160974      0.0160974      0.0160974      0.0160974
+pTj1.XH.XSecErr.QCDScaleDown:                               -0.0124813      -0.0124813      -0.0124813      -0.0124813      -0.0124813
+pTj1.XH.XSecErr.PDFUp:                                        0.0300792      0.0300792      0.0300792      0.0300792      0.0300792
+pTj1.XH.XSecErr.PDFDown:                                      -0.0221606      -0.0221606      -0.0221606      -0.0221606     -0.0221606
+
+Njets_shape.XH.XSec:                                              0.59769        1.03788        1.01779        0.35714
+Njets_shape.XH.XSecErr.QCDScaleUp:                                0.000      0.000      0.000      0.000
+Njets_shape.XH.XSecErr.QCDScaleDown:                              -0.000      -0.000      -0.000      -0.000
+Njets_shape.XH.XSecErr.PDFUp:         0.0034      0.0031      0.0141      0.0311      
+Njets_shape.XH.XSecErr.PDFDown:        -0.0046     -0.0034     -0.0103     -0.0231
+#Njets_shape.XH.XSecErr.PDFUp:                                     0.000      0.000      0.000      0.000
+#Njets_shape.XH.XSecErr.PDFDown:                                   -0.000      -0.000      -0.000      -0.000
+
+pTH_shape.XH.XSec:                                                0.01399        0.02286        0.02568        0.02658        0.02635        0.02358        0.01849        0.00730  
+pTH_shape.XH.XSecErr.QCDScaleUp:                                  0.000       0.000       0.000       0.000       0.000       0.000       0.000       0.000 
+pTH_shape.XH.XSecErr.QCDScaleDown:                                -0.000      -0.000      -0.000      -0.000      -0.000      -0.000      -0.000      -0.000
+pTH_shape.XH.XSecErr.PDFUp:         0.0023      0.0014      0.0006      0.0013      0.0041      0.0083      0.0111      0.0204      
+pTH_shape.XH.XSecErr.PDFDown:        -0.0028     -0.0018     -0.0007     -0.0013     -0.0030     -0.0053     -0.0077     -0.0147
+#pTH_shape.XH.XSecErr.PDFUp:                                        0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000 
+#pTH_shape.XH.XSecErr.PDFDown:                                      -0.000      -0.000      -0.000      -0.000     -0.000      -0.000      -0.000      -0.000
+
+yAbsH_shape.XH.XSec:                                              1.64937        1.60384        1.51001        1.37115        1.15446        0.70136 
+yAbsH_shape.XH.XSecErr.QCDScaleUp:                                0.000       0.000       0.000       0.000       0.000       0.000 
+yAbsH_shape.XH.XSecErr.QCDScaleDown:                              -0.000      -0.000      -0.000      -0.000      -0.000      -0.000
+yAbsH_shape.XH.XSecErr.PDFUp:         0.0063      0.0050      0.0030      0.0012      0.0057      0.0206      0.1210      
+yAbsH_shape.XH.XSecErr.PDFDown:        -0.0041     -0.0034     -0.0025     -0.0020     -0.0078     -0.0234     -0.0971     
+#yAbsH_shape.XH.XSecErr.PDFUp:                                        0.000      0.000      0.000      0.000      0.000      0.000
+#yAbsH_shape.XH.XSecErr.PDFDown:                                      -0.000      -0.000      -0.000      -0.000     -0.000      -0.000
+
+pTj1_shape.XH.XSec:                                               0.01992        0.03043        0.02897        0.01895        0.00909 
+pTj1_shape.XH.XSecErr.QCDScaleUp:                                 0.000       0.000       0.000       0.000       0.000 
+pTj1_shape.XH.XSecErr.QCDScaleDown:                               -0.000      -0.000      -0.000      -0.000      -0.000
+pTj1_shape.XH.XSecErr.PDFUp:         0.0030      0.0020      0.0071      0.0130      0.0182      
+pTj1_shape.XH.XSecErr.PDFDown:        -0.0042     -0.0021     -0.0052     -0.0095     -0.0135
+#pTj1_shape.XH.XSecErr.PDFUp:                                        0.000      0.000      0.000      0.000      0.000
+#pTj1_shape.XH.XSecErr.PDFDown:                                      -0.000      -0.000      -0.000      -0.000     -0.000

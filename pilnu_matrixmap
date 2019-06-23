@@ -1,0 +1,51 @@
+ FCN=68.3325 FROM HESSE     STATUS=OK            131 CALLS       75115 TOTAL
+                     EDM=2.9014e-14    STRATEGY= 2      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                INTERNAL      INTERNAL  
+  NO.   NAME      VALUE            ERROR       STEP SIZE       VALUE   
+   1  Uncert_Ddoublestarlnu   3.27302e-01     fixed    
+   2  Uncert_Ddoublestarlnubroad  -6.50592e-02     fixed    
+   3  Uncert_Ddoublestarlnunarrow  -2.17198e-02     fixed    
+   4  Uncert_Dlnu  -1.12982e-01     fixed    
+   5  Uncert_DlnurhoD2  -1.92470e-01     fixed    
+   6  Uncert_Dstarlnu   2.91892e-01     fixed    
+   7  Uncert_DstarlnuR1  -3.76317e-01     fixed    
+   8  Uncert_DstarlnuR2  -1.98221e-02     fixed    
+   9  Uncert_DstarlnurhoDstar2  -1.70058e-01     fixed    
+  10  Uncert_GammaEff   5.05230e-02     fixed    
+  11  Uncert_KLEff  -7.02270e-01     fixed    
+  12  Uncert_KLShowerEnergy  -5.63017e-01     fixed    
+  13  Uncert_KLSpectrum  -1.95471e-01     fixed    
+  14  Uncert_LepID   1.84952e-01     fixed    
+  15  Uncert_PiID   7.25719e-02     fixed    
+  16  Uncert_SecondaryLep   1.50907e-02     fixed    
+  17  Uncert_TrackEff   1.78395e-01     fixed    
+  18  Uncert_VTXChi2prob   5.46983e-03     fixed    
+  19  Uncert_Y4StoB0B0   1.91951e-01     fixed    
+  20  Uncert_b1lnu   3.26323e-03     fixed    
+  21  Uncert_etalnu  -1.70253e-01     fixed    
+  22  Uncert_etaplnu  -3.98470e-02     fixed    
+  23  Uncert_offresclnu  -2.43035e-02     fixed    
+  24  Uncert_offresulnu   1.17230e-01     fixed    
+  25  Uncert_omegalnu  -2.23136e-01     fixed    
+  26  Uncert_pi0lnu  -8.40834e-03     fixed    
+  27  Uncert_pilnufp  -1.45617e-01     fixed    
+  28  Uncert_piplnu   3.44559e-02     fixed    
+  29  Uncert_rho0lnu   2.14451e-02     fixed    
+  30  Uncert_rholnu   3.48160e-01     fixed    
+  31  Uncert_rholnuA1  -2.40154e-02     fixed    
+  32  Uncert_rholnuA2   2.63932e-01     fixed    
+  33  Uncert_rhoplnu   9.72635e-02     fixed    
+  34  sigma_1      1.27796e+02   9.18597e+00   4.92011e-07   2.14638e-01
+  35  sigma_10     8.62803e+01   8.74174e+00   4.68277e-07   1.44301e-01
+  36  sigma_11     9.61098e+01   7.30600e+00   3.81226e-07   1.60876e-01
+  37  sigma_12     6.72675e+01   8.75636e+00   2.13665e-06   1.12349e-01
+  38  sigma_13     1.51762e+00   1.09856e+01   1.31925e-05   2.52937e-03
+  39  sigma_2      1.37642e+02   6.27738e+00   3.27670e-07   2.31464e-01
+  40  sigma_3      1.28240e+02   5.92329e+00   1.48784e-06   2.15395e-01
+  41  sigma_4      1.47380e+02   5.14939e+00   1.31795e-06   2.48174e-01
+  42  sigma_5      1.33037e+02   5.30580e+00   1.36509e-06   2.23586e-01
+  43  sigma_6      1.44148e+02   5.48683e+00   1.46601e-06   2.42620e-01
+  44  sigma_7      1.32896e+02   6.27136e+00   1.62116e-06   2.23346e-01
+  45  sigma_8      1.19077e+02   6.72539e+00   3.54300e-07   1.99788e-01
+  46  sigma_9      1.20510e+02   6.64970e+00   3.60045e-07   2.02225e-01
+
